@@ -1,42 +1,44 @@
 # QR Code Generator (Python)
 
-## About
-This is a simple desktop app I made using Python where you can generate QR codes from text or links. I also added some extra features like history and text-to-speech just to make it more useful and interactive.
+## Overview
+This is a Python-based desktop application that generates QR codes from text or URLs using a Tkinter GUI. The project includes additional features such as history tracking, logo embedding, and text-to-speech functionality.
 
 ---
 
-## What it does
-- Takes text or URL input and generates QR code
-- Shows the QR code in a GUI window (Tkinter)
-- Adds a logo in the center of QR code
-- Keeps a history of inputs during the session
-- Lets you pick previous inputs from history
-- Reads QR data using voice (text-to-speech)
+## Features
+- Generate QR codes from text or URLs
+- GUI-based interface using Tkinter
+- Embed a logo in the center of the QR code
+- Maintain session-based input history
+- Select and reuse previous inputs from history
+- Text-to-speech support to read QR data aloud
 
 ---
 
-## Tools used
+## Tools Used
 - Python
 - Tkinter
 - qrcode library
-- Pillow (for image handling)
-- pyttsx3 (for voice output)
+- Pillow (PIL)
+- pyttsx3
 
 ---
 
-## How it works (simple)
-You just type something → click generate → QR code shows up.  
-If you want, you can also use old inputs from history or listen to the data.
+## How It Works
+User enters text or URL → clicks generate → QR code is created and displayed in the GUI.
+
+Additional features allow users to reuse previous inputs from history or listen to the generated data using voice output.
 
 ---
 
-## What I learned
-- How to build GUI apps in Python
-- How to work with images in Python
-- How different libraries work together in one project
-- Basic event handling in Tkinter
+## What I Learned
+- Building desktop GUI applications using Python
+- Working with external libraries and APIs
+- Image processing using Pillow
+- Event-driven programming in Tkinter
+- Managing application state (history and user input)
 
 ---
 
 ## Note
-This is a practice project to improve my Python skills.
+This project was built as a practice exercise to strengthen Python programming skills and gain experience in building GUI-based applications.
